@@ -1,14 +1,16 @@
 void swap_max(int arr[],int l,int n){
 int m=a[n];
-int p=n;
+int p;
+p=n;
 for (int i=n;i<l;i++){
-if(a[i]>m)
-{m=a[i];
+if(arr[i]>m)
+{m=arr[i];
 p=i;}
 }
-int t=a[p];
-a[p]=a[n];
-a[n]=a[p];
+int t;
+t=arr[p];
+arr[p]=arr[n];
+arr[n]=arr[p];
 }
 
 void ssort(int arr[],int l)
