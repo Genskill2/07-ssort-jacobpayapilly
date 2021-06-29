@@ -14,6 +14,6 @@ arr[n]=t;
 
 void ssort(int arr[],int l)
 {for(int i=0;i<l-1;i++)
-{swap_max(arr[],l,i);
+{swap_max(arr,l,i);
 }
 }
