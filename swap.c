@@ -1,5 +1,5 @@
 void swap_max(int arr[],int l,int n){
-int m=a[n];
+int m=arr[n];
 int p;
 p=n;
 for (int i=n;i<l;i++){
